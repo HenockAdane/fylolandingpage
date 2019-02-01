@@ -1,57 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" type="text/css" href="style/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+    <title>Frontend Mentor | Beta sign up split layout Challenge</title>
+  </head>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" type="text/css" href="style/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-  <title>Frontend Mentor | Beta sign up split layout Challenge</title>
+  <body>
+    <header>
+      <nav>
+        <img class="companylogo" src="images/logo.svg" alt="#" />
+        <ul>
+          <li><i class="fab fa-twitter"></i></li>
+          <li><i class="fab fa-facebook-f"></i></li>
+          <li><i class="fas fa-envelope"></i></li>
+        </ul>
+      </nav>
+    </header>
 
+    <!--Left side-->
+    <div class="flex-container">
+      <div class="leftside">
+        <img class="" src="images/illustration-main.svg" alt="Illustration" />
+        <img class="" src="images/bg-intro.svg" alt="Intro" />
+      </div>
 
-</head>
+      <!--Right side-->
+      <div class="rightside">
+        <p class="files">
+          All your files in one secure location, accessible anywhere.
+        </p>
 
-<body>
-  <!--Left side-->
-  <div class="flex-container">
-    <div class="leftside">
-    <img class="" src="images/illustration-main.svg" alt="Illustration">
-    <img class="" src="images/bg-intro.svg" alt="Intro">
-  </div>
+        <p class="blurb">
+          Fylo stores all your most important files in one secure location.
+          Access them wherever you need, share and collaborate with friends,
+          family and co-workers.
+        </p>
 
-    <!--Right side-->
-    <div class="rightside">
-    <img class="companylogo" src="images/logo.svg" alt="#">
-    <div class="icons">
-    <i class="fab fa-twitter"></i>
-    <i class="fab fa-facebook-f"></i>
-    <i class="fas fa-envelope"></i>
-  </div>
+        <p class="signup">Sign up for early access</p>
 
-    <p class="files">All your files in one secure location, accessible anywhere.</p>
+        Sign Up Privacy Policy
 
-    <p class="blurb">Fylo stores all your most important files in one secure location.
-    Access them wherever you need, share and collaborate with friends,
-    family and co-workers.</p>
-
-    <p class="signup">Sign up for early access</p>
-
-    Sign Up
-
-    Privacy Policy
-
-    <footer>
-      <p class="attribution">
-        This page started life as a challenge on <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
-          Mentor</a> 🎉
-      </p>
-    </footer>
-  </div>
-  </div>
-</body>
-
+        <footer>
+          <p class="attribution">
+            This page started life as a challenge on
+            <a
+              href="https://www.frontendmentor.io?ref=challenge"
+              target="_blank"
+              >Frontend Mentor</a
+            >
+            🎉
+          </p>
+        </footer>
+      </div>
+    </div>
+  </body>
 </html>
