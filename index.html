@@ -27,7 +27,7 @@
 
   <body>
     <header>
-      <nav>
+      <nav class="topnav">
         <img src="images/logo.svg" alt="Company logo" />
 
         <i class="fab fa-twitter"></i>
@@ -36,29 +36,39 @@
       </nav>
     </header>
 
-    <img src="images/illustration-main.svg" alt="Illustration" />
+    <div class="flex-container">
+      <!--Left side-->
+      <div class="column">
+        <div class="leftside">
+          <img src="images/illustration-main.svg" alt="Illustration" />
+        </div>
+      </div>
 
-    <h1 class="files">
-      All your files in one secure location, accessible anywhere
-    </h1>
+      <!--Right side-->
+      <div class="column">
+        <h1 class="files">
+          All your files in one secure location, accessible anywhere
+        </h1>
 
-    <p class="blurb">
-      Fylo stores all your most important files in one secure location. Access
-      them wherever you need, share and collaborate with friends, family and
-      co-workers
-    </p>
+        <p class="blurb">
+          Fylo stores all your most important files in one secure location.
+          Access them wherever you need, share and collaborate with friends,
+          family and co-workers
+        </p>
 
-    <p class="signup">Sign up for early access</p>
+        <p class="signup">Sign up for early access</p>
 
-    <div class="signup">
-      <form>
-        <input type="text" placeholder="Enter your email" />
-      </form>
-      <button type="button">Sign Up</button>
+        <div class="signup">
+          <form>
+            <input type="text" placeholder="Enter your email" />
+          </form>
+          <button type="button">Sign Up</button>
+        </div>
+
+        <footer>
+          <a href="#">Private Policy</a>
+        </footer>
+      </div>
     </div>
-
-    <footer>
-      <a href="#">Private Policy</a>
-    </footer>
   </body>
 </html>
