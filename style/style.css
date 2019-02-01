@@ -1,36 +1,13 @@
 body {
-    font-family: "Open-Sans", sans-serif;
-}
-
-.flex-container {
-    display: flex;
-}
-
-/* Left side */
-
-
-/* Right side */
-.companylogo {
-    padding-top: 5%;
-    padding-left: 5%;
-}
-
-.icons {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    float: right;
-    width: 50%;
-    font-size: 1.5em;
-    padding-top: 5%;
+  font-family: "Open-Sans", sans-serif;
 }
 
 .files .signup {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    color: hsl(243, 87%, 12%);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: hsl(243, 87%, 12%);
 }
 
 .blurb {
-    color: hsl(0, 0%, 50%);
+  color: hsl(0, 0%, 50%);
 }
